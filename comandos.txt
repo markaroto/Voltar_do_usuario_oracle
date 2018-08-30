@@ -1,0 +1,10 @@
+comando para verificar RSHA da senha oracle 11g
+
+select  name, password  from sys.user$  where   name = '';
+
+comando para verificar senha no oracle 10g
+
+select * from dba_users where username = '';
+
+Para cria senha ja criptograda.
+IDENTIFIED BY values ''
